@@ -23,6 +23,7 @@ let shuffle = false; // 隨機播放狀態
 let repeat = false; // 全曲循環
 let repeatOne = false; //單曲循環
 const audio = new Audio(); // 建立音樂播放器
+const test = "";
 
 // 陣列(Array)物件
 // 陣列名稱 = [物件1, 物件2, 物件3]
