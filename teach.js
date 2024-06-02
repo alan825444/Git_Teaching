@@ -24,8 +24,6 @@ let repeat = false; // 全曲循環
 let repeatOne = false; //單曲循環
 const audio = new Audio(); // 建立音樂播放器
 
-// 寫了一個註解
-// 寫更多的註解
 
 
 // 陣列(Array)物件
