@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mp3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <i class="fas fa-bars menu-btn"></i>
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="cover-image"></div>
+        <div class="player-body"></div>
+        
+        <div class="list-wrapper">
+            <table class="list" id="playlist">
+
+                <tr class="song">
+                    <td class="no">
+                        <h5>1</h5>
+                    </td>
+                    <td class="title">
+                        <h6>Song Title</h6>
+                    </td>
+                    <td class="length">
+                        <h5>3:00</h5>
+                    </td>
+                </tr>
+
+                <tr class="song">
+                    <td class="no">
+                        <h5>1</h5>
+                    </td>
+                    <td class="title">
+                        <h6>Song Title</h6>
+                    </td>
+                    <td class="length">
+                        <h5>3:00</h5>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="bar">
+            <!-- <div class="dot"></div> -->
+            <div class="time">
+                <h5 class="current-time">0:00</h5>
+                <h5 class="duration">0:00</h5>
+            </div>
+            <input type="range" name="" id="">
+        </div>
+
+        <div class="info">
+            <!-- <select class="songSlect">
+                <option value="">123</option>
+                <option value="">123</option>
+                <option value="">123</option>
+                <option value="">123</option>
+                <option value="">123</option>
+            </select> -->
+            <h2>Song Title</h2>
+            <h3>artist</h3>
+        </div>
+
+        <div class="controls">
+            <i class="fas fa-step-backward" id="prev3s"></i>
+            <i class="fas fa-step-backward" id="prev"></i>
+            <i class="fas fa-play" id="playpause" onclick="musicPlay()"></i>
+            <i class="fas fa-step-forward" id="next"></i>
+            <i class="fas fa-step-forward" id="next3s"></i>
+        </div>
+
+        <div class="more-controls">
+            <i class="fas fa-shuffle" id="shuffle"></i>
+            <i class="fas fa-repeat" id="repeat"></i>
+            <div class='volumn-control-bar'>
+                <i class="fas fa-volume-low" style="margin-right:5px;"></i>
+                <input type="range" class="volumn-progress" id="volumn-bar">
+            </div>
+        </div>
+
+        <p class="current-song-title">
+            song title
+        </p>
+
+        <audio id="audio" src="airball.mp3"></audio>
+
+    
+   
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        
+
+    </script>
+</body>
+</html>
